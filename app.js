@@ -11,8 +11,8 @@ const keys = JSON.parse(fs.readFileSync("C:/shared/content/config/api-keys/opena
 const myKey = keys["team-22"];
 console.log(myKey)
 const openai = new OpenAI({
-   //apiKey: myKey,
-  apiKey: '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',
+   apiKey: myKey,
+  //apiKey: '',
 });
 
 export const createStore = (docs) => {
