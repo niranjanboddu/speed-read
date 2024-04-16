@@ -17,7 +17,7 @@ const myKey = keys["team-22"];
 console.log(myKey)
 const openai = new OpenAI({
    //apiKey: myKey,
-  apiKey: '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',
+  apiKey: '',
 });
 
 export const createStore = (docs) => {
