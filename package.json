@@ -1,0 +1,20 @@
+{
+  "name": "0x-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/openai": "^0.0.10",
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "multer": "1.4.5-lts.1",
+    "langchain": "^0.1.1",
+    "pdf-parse": "^1.1.1",
+    "youtube-transcript": "^1.0.6",
+    "youtubei.js": "^5.8.0"
+  }
+}
